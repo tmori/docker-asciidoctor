@@ -1,0 +1,36 @@
+= テスト マニュアル: - {manual-extention-user} -
+Ver.1.0, 2022-10-31
+:scripts: cjk
+:doctype: book
+:pdf-theme: ./docs/theme/manual-theme.yml
+:pdf-fontsdir: ./docs/fonts;GEM_FONTS_DIR
+:sectnumlevels: 4
+:sectnums:
+:chapter-label:
+//:preface-title: はじめに
+:toc: left
+:toclevels: 4
+:toc-title: 目次
+:figure-caption: 図
+:table-caption: 表
+:listing-caption: リスト
+:example-caption: 例
+:note-caption: 補足
+:tip-caption: ヒント
+:caution-caption: 注意
+:warning-caption: 警告
+:important-caption: 重要
+:version-label: Ver
+:last-update-label: 最終更新
+include::extension/extension.adoc[]
+
+== 操作方法
+include::components/chapter1/chapter1.adoc[]
+
+<<<
+
+include::components/chapter2/chapter2.adoc[]
+
+== 注意事項
+
+== トラブルシューティング
